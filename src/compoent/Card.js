@@ -12,7 +12,7 @@ const Card = ({tag,icon,Bulider,number,rating,texts}) => {
         <div className='absolute rounded-full border-black border h-[30px] aspect-[1] text-center text-xl left-[-5px] top-[50px]'>{number}</div>
      {
       tag && <div className='absolute bg-orange-600 rounded p-1 text-white flex items-center gap-1'>
-        {icon}
+       <p className='hidden md:block'>{icon}</p> 
       <p >{tag} </p>
       </div>
      } 
