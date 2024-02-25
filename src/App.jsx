@@ -54,7 +54,9 @@ function App() {
 </div>
 
 </div>
-<div className='flex justify-between items-center mx-5 my-10'>
+
+    </div>
+    <div className='flex justify-between items-center p-1 my-10'>
   <p className=' max-w-[398px] text-3xl'>Sign up and get exclusive special deals</p>
   <div className='flex'>
     <input type="text"  />
@@ -62,7 +64,6 @@ function App() {
   </div>
   
 </div>
-    </div>
     <Footer />
     </div>
   );
