@@ -8,7 +8,7 @@ import { IoIosInformationCircleOutline } from "react-icons/io";
 
 const Card = ({tag,icon,Bulider,number,rating,texts}) => {
   return (
-    <div className='flex h-[255px] my-10 justify-between  rounded relative '>
+    <div class='flex my-10 justify-between rounded relative h-255 md:h-400'>
         <div className='absolute rounded-full border-black border h-[30px] aspect-[1] text-center text-xl left-[-5px] top-[50px]'>{number}</div>
      {
       tag && <div className='absolute bg-orange-600 rounded p-1 text-white flex items-center gap-1'>
