@@ -54,14 +54,14 @@ function App() {
 </div>
 
 </div>
-{/* <div className='flex justify-between items-center mx-5 my-10'>
+<div className='flex justify-between items-center mx-5 my-10'>
   <p className=' max-w-[398px] text-3xl'>Sign up and get exclusive special deals</p>
   <div className='flex'>
     <input type="text"  />
     <button className=' bg-[#1B88F4] rounded p-2 text-white'>Sign Up</button>
   </div>
   
-</div> */}
+</div>
     </div>
     <Footer />
     </div>
